@@ -17,6 +17,7 @@
 		20C21B602A11727600E6D8E1 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C21B5F2A11727600E6D8E1 /* ExploreView.swift */; };
 		20C21B622A11729B00E6D8E1 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C21B612A11729B00E6D8E1 /* NotificationsView.swift */; };
 		20C21B642A1172C000E6D8E1 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C21B632A1172C000E6D8E1 /* MessagesView.swift */; };
+		20C21B682A11782200E6D8E1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C21B672A11782200E6D8E1 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		20C21B5F2A11727600E6D8E1 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		20C21B612A11729B00E6D8E1 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		20C21B632A1172C000E6D8E1 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		20C21B672A11782200E6D8E1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,8 +195,25 @@
 		20C21B5E2A11724400E6D8E1 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				20C21B662A11781400E6D8E1 /* ViewModels */,
+				20C21B652A11780D00E6D8E1 /* Views */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		20C21B652A11780D00E6D8E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20C21B672A11782200E6D8E1 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20C21B662A11781400E6D8E1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +290,7 @@
 				20C21B402A11684800E6D8E1 /* ContentView.swift in Sources */,
 				20C21B572A116A5900E6D8E1 /* TweetRowView.swift in Sources */,
 				20C21B542A11698F00E6D8E1 /* FeedView.swift in Sources */,
+				20C21B682A11782200E6D8E1 /* ProfileView.swift in Sources */,
 				20C21B3E2A11684800E6D8E1 /* TwitterSwiftUICloneApp.swift in Sources */,
 				20C21B602A11727600E6D8E1 /* ExploreView.swift in Sources */,
 				20C21B5A2A1170D200E6D8E1 /* MainTabView.swift in Sources */,
