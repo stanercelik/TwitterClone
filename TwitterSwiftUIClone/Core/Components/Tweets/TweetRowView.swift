@@ -35,7 +35,7 @@ struct TweetRowView: View {
                     }
                     
                     // Tweet caption
-                    Text("KAZANIYORUZZZZZZajsdkaljdkasdalsdjlasdşlkamskld!!!! 🫶🫶🫶")
+                    Text("Birleşe Birleşe Kazanacağız 🫶🫶🫶")
                         .font(.subheadline)
                         .multilineTextAlignment(.leading)
                 }
