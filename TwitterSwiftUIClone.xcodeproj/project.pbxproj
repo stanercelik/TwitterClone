@@ -29,6 +29,7 @@
 		20C21B882A1638DC00E6D8E1 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C21B872A1638DC00E6D8E1 /* RegistrationView.swift */; };
 		20C21B8A2A163AA500E6D8E1 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C21B892A163AA500E6D8E1 /* RoundedShape.swift */; };
 		20C21B8C2A1671DA00E6D8E1 /* CustomTextInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C21B8B2A1671DA00E6D8E1 /* CustomTextInputField.swift */; };
+		20C21B8E2A1678A700E6D8E1 /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C21B8D2A1678A700E6D8E1 /* PasswordInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		20C21B872A1638DC00E6D8E1 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		20C21B892A163AA500E6D8E1 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 		20C21B8B2A1671DA00E6D8E1 /* CustomTextInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextInputField.swift; sourceTree = "<group>"; };
+		20C21B8D2A1678A700E6D8E1 /* PasswordInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				20C21B552A116A2D00E6D8E1 /* Tweets */,
 				20C21B892A163AA500E6D8E1 /* RoundedShape.swift */,
 				20C21B8B2A1671DA00E6D8E1 /* CustomTextInputField.swift */,
+				20C21B8D2A1678A700E6D8E1 /* PasswordInputView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				20C21B6F2A122D5200E6D8E1 /* UserRowView.swift in Sources */,
 				20C21B5A2A1170D200E6D8E1 /* MainTabView.swift in Sources */,
 				20C21B622A11729B00E6D8E1 /* NotificationsView.swift in Sources */,
+				20C21B8E2A1678A700E6D8E1 /* PasswordInputView.swift in Sources */,
 				20C21B7A2A13F1D200E6D8E1 /* UserStatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

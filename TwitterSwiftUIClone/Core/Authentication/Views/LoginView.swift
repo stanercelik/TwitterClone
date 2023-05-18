@@ -17,7 +17,7 @@ struct LoginView: View {
         VStack{
             
             // HeaderView
-            VStack(alignment: .leading){
+            VStack(alignment: .leading, spacing: 12){
                 HStack{Spacer()}
                 
                 Text("Hello.")
@@ -36,7 +36,7 @@ struct LoginView: View {
             VStack(spacing: 40) {
                 CustomTextInputField(imageName: "envelope", placeholder: "Email", text: $email)
                 
-                CustomTextInputField(imageName: "lock", placeholder: "Password", text: $password)
+                PasswordInputView(imageName: "lock", placeholder: "Password", text: $password)
             }
             .padding(.horizontal, 32)
             .padding(.top, 44)

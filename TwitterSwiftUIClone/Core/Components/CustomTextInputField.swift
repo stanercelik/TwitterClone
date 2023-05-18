@@ -12,6 +12,7 @@ struct CustomTextInputField: View {
     let placeholder : String
     @Binding var text : String
     
+    
     var body: some View {
         VStack {
             HStack{
