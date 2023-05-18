@@ -35,6 +35,7 @@
 		20C21B952A167F9800E6D8E1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 20C21B942A167F9800E6D8E1 /* FirebaseFirestore */; };
 		20C21B972A167F9800E6D8E1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 20C21B962A167F9800E6D8E1 /* FirebaseFirestoreSwift */; };
 		20C21B992A167F9800E6D8E1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 20C21B982A167F9800E6D8E1 /* FirebaseStorage */; };
+		20C21B9B2A16836D00E6D8E1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C21B9A2A16836D00E6D8E1 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		20C21B8B2A1671DA00E6D8E1 /* CustomTextInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextInputField.swift; sourceTree = "<group>"; };
 		20C21B8D2A1678A700E6D8E1 /* PasswordInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputView.swift; sourceTree = "<group>"; };
 		20C21B8F2A167E8900E6D8E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		20C21B9A2A16836D00E6D8E1 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,6 +357,7 @@
 		20C21B842A1638AD00E6D8E1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				20C21B9A2A16836D00E6D8E1 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				20C21B8A2A163AA500E6D8E1 /* RoundedShape.swift in Sources */,
 				20C21B6F2A122D5200E6D8E1 /* UserRowView.swift in Sources */,
 				20C21B5A2A1170D200E6D8E1 /* MainTabView.swift in Sources */,
+				20C21B9B2A16836D00E6D8E1 /* AuthViewModel.swift in Sources */,
 				20C21B622A11729B00E6D8E1 /* NotificationsView.swift in Sources */,
 				20C21B8E2A1678A700E6D8E1 /* PasswordInputView.swift in Sources */,
 				20C21B7A2A13F1D200E6D8E1 /* UserStatsView.swift in Sources */,
